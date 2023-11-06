@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Questrial&display=swap");
+
+:root{
+    --primeira--cor: #02163c;
+    --segunda--cor: #040515;
+    --branco: #ffffff;
+    --primeira--fonte: 'Questrial', sans-serif;
+    --segunda--fonte:'Lexend Deca', sans-serif
+}
+
+body{
+    background-color: var(--segunda--cor);
+    color: var(--branco);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.principal{
+    padding: 2%;
+    display: block;
+}
+
+.titulo{
+    font-family: var(--primeira--fonte);
+}
+
+.topico{
+    font-family: var(--segunda--fonte);
+}
+
+.contato_conteudo{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.contato_conteudo:hover{
+    text-decoration:underline;
+}
+.atualizacao{
+    text-align: center;
+}
+
+.atualizacao_bloco{
+    border: 0.5rem, solid;
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+
+.rodape{
+    background-color: var(--primeira--cor);
+    text-align: center;
+    margin:none;
+    padding: 0.25%;
+}

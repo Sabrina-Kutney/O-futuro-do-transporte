@@ -1,0 +1,61 @@
+
+body {
+    background-color: #040515;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo_linkedin,
+.logo_facebook,
+.logo_instagram,
+.logo_twitter {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem; /* Adicionei esta margem para separar as logos */
+}
+
+.logo_linkedin:hover img,
+.logo_facebook:hover img,
+.logo_instagram:hover img,
+.logo_twitter:hover img,
+.logo_youtube:hover img,
+.logo_email:hover img {
+    transform: scale(1.2); /* Ajuste a escala conforme desejado */
+    transition: transform 0.7s ease-in-out; /* Adicione uma transição suave */
+}
+
+/* Adicione a seguinte regra para alinhar horizontalmente as logos */
+.logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11%;
+    margin-right: 5%;
+}
+
+.logos_baixo{
+    display: flex;
+    align-items: start;
+    margin-top: 10vh;
+    margin-left: 81vh;
+}
+
+.logo_youtube{
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+}
+
+.logo_email{
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+    margin-left: 30vh;
+
+}
